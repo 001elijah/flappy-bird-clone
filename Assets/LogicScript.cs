@@ -19,7 +19,7 @@ public class LogicScript : MonoBehaviour
 
     public void RestartGame()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        SceneManager.LoadScene("TitleScreen");
     }
 
     public void GameOver()
